@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "steverhoades/oauth2-openid-connect-client": "^0.4.0",
+        "steverhoades/oauth2-openid-connect-client": "dev-feature/lcobucci-jwt-4",
         "laravel/framework": "^6.0|^7.0|^8.0|^9.0"
     },
     "extra": {
@@ -24,5 +24,11 @@
                 "LaravelOIDCAuth\\OIDCAuthServiceProvider"
             ]
         }
-    }
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/inoric/oauth2-openid-connect-client",
+            "type": "git"
+        }
+    ]
 }
